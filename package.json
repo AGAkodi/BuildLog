@@ -1,0 +1,14 @@
+{
+  "name": "buildlog",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test",
+    "build:assets": "node scripts/build-assets.mjs"
+  },
+  "engines": {
+    "node": ">=22.13"
+  }
+}
